@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-name {
+display: inline;
+font-family: "Kaushan Script", 'cursive';
+}
+
+.nav-item{
+    font-weight: 500;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.container1{
+    background-image:url(banner-bg-min.png); 
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position: center;
+}
+.main-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 150px;
+}
+#home{
+    font-family: serif;
+    font-size: clamp(30px, 4vw, 350px);
+    /* font-size: 3em; */
+}
+.semi{
+    font-family:  "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 1.5rem; */
+    font-size: clamp(15px, 2vw, 200px);
+
+}
+#btn-1{
+    background-color: rgb(53, 218, 168);
+    color:rgb(0, 0, 0);
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+padding: 10px 30px;
+border: none;
+}
+#btn-1:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(18,184,134);
+}
+
+
+.container2{
+    width: 100%;
+    height: max-content;
+overflow: hidden;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.row{
+    padding-bottom: 50px;
+}
+
+#services{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 50px;
+}
+
+.sub-para1{
+    line-height: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para101{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sub-para2{
+    line-height: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para102{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sub-para3{
+    line-height: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para103{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sub-para4{
+    line-height: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para104{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+.container3{
+background-color: rgb(18,184,134);
+    width: 100%;
+ height: 80vh;
+ overflow: hidden;
+}
+
+.about{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sub-para5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    padding-left: 10px;
+padding-right: 10px;
+}
+.btn-2{
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(0, 0, 0);
+border-radius: 7px;
+color: white;
+font-weight: bold;
+margin-top: 2em;
+font-size: 0.9rem;
+
+}
+
+.btn-2:hover{
+    background-color: rgb(110, 110, 110);
+}
+.col{
+ padding-top: 50px;
+}
+.col-right{
+    padding-top: 0%;
+    padding-bottom: 50px;
+}
+
+
+
+.row1{
+    overflow: hidden;
+}
+.kitchen{
+    width: 500px;
+    height: 400px;
+border: 5px solid rgb(18,184,134);
+}
+
+.home{
+    width: 500px;
+    height: 400px;
+border: 5px solid rgb(18,184,134);
+}
+#shop{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+}
+.sub-para6{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.sub{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 3%;
+}
+
+
+
+
+
+
+.container5{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+/* swiper js */
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+/* swiper js */
+
+
+
+
+
+
+
+.container6{
+    width: 100%;
+    overflow: hidden;
+    height: fit-content;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+column-gap: 20%;
+}
+.client_2{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 15px;
+}
+.client_1{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.client_3{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.client_4{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 15px;
+}
+.img0{
+    border: 5px double black ;    
+}
+.dolor_ipsum_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.loksans_text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title{
+    padding-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+.container7{
+    width: 100%;
+    height: 60vh;
+    background-image:url(./wall-pic.jfif);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 50px;
+}
+
+.contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    font-size: 2.5em;
+}
+
+.form-control{
+    margin-bottom: 10px;
+}
+
+#btn-4{
+
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(0, 0, 0);
+border-radius: 7px;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+
+}
+#btn-4:hover{
+    background-color: rgb(110, 110, 110);
+}
+
+
+
+
+.container8{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(0, 0, 0);
+display: flex;
+justify-content: center;
+flex-direction: row;
+gap: 5%;
+padding-top: 5%;
+}
+.last-heading{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 2.5em;
+line-height: normal;
+padding-left: 20%;
+}
+.sub-heading{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+}
+.sub-para8{
+font-family: 'Times New Roman', Times, serif;
+color: white;
+margin-top: 20px;
+}
+.sub-para9{
+font-family: 'Times New Roman', Times, serif;
+color: rgb(255, 255, 255);
+line-height: 5px;
+margin-top: 20px;
+cursor: pointer;
+}
